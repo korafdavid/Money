@@ -1,6 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:meneey_ui/all_listing.dart';
 import 'package:meneey_ui/custom_widgets.dart';
 import 'package:meneey_ui/widgets/custom_appbar.dart';
 import 'package:meneey_ui/widgets/searchfield.dart';
@@ -48,7 +47,7 @@ class _DashboardState extends State<Dashboard>
                     Expanded(
                       child: TabBar(
                         controller: _tabController,
-                       // indicator: const BoxDecoration(),
+                       indicator: const BoxDecoration(),
                         labelStyle: const TextStyle(
                             fontWeight: FontWeight.bold), //For Selected tab
                         unselectedLabelStyle:

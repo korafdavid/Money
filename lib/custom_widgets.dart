@@ -157,7 +157,7 @@ filterDialog(BuildContext context) {
       pageBuilder:
           (BuildContext context, Animation<double> ii, Animation<double> d) {
         return Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 22.0, vertical: 60),
+          padding: const EdgeInsets.symmetric(horizontal: 22.0, vertical: 50),
           child: Container(
             margin: EdgeInsets.all(5),
             decoration: BoxDecoration(
@@ -166,7 +166,7 @@ filterDialog(BuildContext context) {
             ),
             child: Material(
               color: Colors.transparent,
-              child: Column(
+              child: ListView(
                 children: [
                   Align(
                     alignment: Alignment.centerLeft,

@@ -70,7 +70,7 @@ class _SuggestionsState extends State<Suggestions>
                                   Container(
                                     decoration: BoxDecoration(
                                       image: DecorationImage(
-                                        image: AssetImage('assets/images/image6.png')
+                                        image: AssetImage('assets/images/image6.jpg')
                                       ),
                                       borderRadius: BorderRadius.only(topRight: Radius.circular(14), topLeft: Radius.circular(14))),
                                     height: 150,
